@@ -1,0 +1,210 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+  background-color: #6d6b83;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #446688;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  overflow: hidden;
+}
+
+header {
+  background: linear-gradient(to right, #446688, #557799);
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+header .logo {
+  font-size: 2rem;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+}
+
+header nav ul li {
+  padding: 0 1rem;
+}
+
+header nav ul li:last-child {
+  margin-left: auto;
+}
+
+header nav ul li a.nav-link {
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+header nav ul li a.nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+header nav .dropdown {
+  position: relative;
+}
+
+header nav .dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #446688;
+  min-width: 10rem;
+  padding: 0.5rem 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: none;
+  z-index: 1;
+}
+
+header nav .dropdown-menu a {
+  padding: 0.25rem 1rem;
+}
+
+header nav .dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+header nav .signin-signup {
+  display: flex;
+  align-items: center;
+}
+
+header nav .signin-signup form {
+  display: flex;
+  flex-direction: column;
+  margin-right: 1rem;
+}
+
+header nav .signin-signup input {
+  padding: 0.25rem 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 0.5rem;
+}
+
+header nav .signin-signup button {
+  padding: 0.25rem 1rem;
+  border-radius: 5px;
+  border: none;
+  background-color: #fff;
+  color: #446688;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+header nav .signin-signup button:hover {
+  background-color: #f5f5f5;
+}
+
+header nav .signup-btn {
+  margin-top: 0.5rem;
+  padding: 0.25rem 1rem;
+  border-radius: 5px;
+  border: none;
+  background-image: linear-gradient(to right, #4CAF50, #3E8E41);
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+header nav .signup-btn:hover {
+  background-image: linear-gradient(to right, #45a049, #3E7E41);
+}
+
+main {
+  padding: 2rem;
+}
+
+main section {
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+main section h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #446688;
+}
+
+main section p {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+main section button {
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  border: none;
+  background-color: #446688;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+main section button:hover {
+  background-color: #557799;
+}
+
+footer {
+  background-color: #446688;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+footer p {
+  font-size: 0.8rem;
+  margin-right: 1rem;
+}
+
+footer ul {
+  display: flex;
+}
+
+footer ul li {
+  padding: 0 0.5rem;
+}
+
+footer ul li a {
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+footer ul li a:hover {
+  color: #ccc;
+}
+

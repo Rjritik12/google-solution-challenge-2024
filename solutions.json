@@ -1,0 +1,52 @@
+{
+    "ayurvedic": {
+      "hairfall": {
+        "male": {
+          "20": "Eat a diet rich in iron, protein, and vitamins. Apply Bhringraj oil on your scalp.",
+          "30": "Use Amla and Brahmi hair oils. Include fenugreek seeds in your diet.",
+          "40": "Try Ayurvedic hair tonics with bringhraj and amla. Massage your scalp regularly."
+        },
+        "female": {
+          "20": "Eat a diet rich in iron, protein, and vitamins. Apply Bhringraj oil on your scalp.",
+          "30": "Use Amla and Brahmi hair oils. Include fenugreek seeds in your diet.",
+          "40": "Try Ayurvedic hair tonics with bringhraj and amla. Massage your scalp regularly."
+        }
+      },
+      "cough_cold": {
+        "male": {
+          "20": "Drink warm water with honey and lemon. Try Ayurvedic concoctions with tulsi and ginger.",
+          "30": "Use steam inhalation with eucalyptus oil. Drink herbal teas with tulsi and ginger.",
+          "40": "Try Ayurvedic remedies with turmeric and black pepper. Use a humidifier in your room."
+        },
+        "female": {
+          "20": "Drink warm water with honey and lemon. Try Ayurvedic concoctions with tulsi and ginger.",
+          "30": "Use steam inhalation with eucalyptus oil. Drink herbal teas with tulsi and ginger.",
+          "40": "Try Ayurvedic remedies with turmeric and black pepper. Use a humidifier in your room."
+        }
+      },
+      "body_pain": {
+        "male": {
+          "20": "Use Ayurvedic oils with turmeric and ginger. Practice gentle stretches and yoga asanas.",
+          "30": "Try heat therapy with Ayurvedic herbal bags. Practice yoga and meditation for relaxation.",
+          "40": "Use massages with Ayurvedic oils. Practice restorative yoga poses and deep breathing exercises."
+        },
+        "female": {
+          "20": "Use Ayurvedic oils with turmeric and ginger. Practice gentle stretches and yoga asanas.",
+          "30": "Try heat therapy with Ayurvedic herbal bags. Practice yoga and meditation for relaxation.",
+          "40": "Use massages with Ayurvedic oils. Practice restorative yoga poses and deep breathing exercises."
+        }
+      },
+      "headache": {
+        "male": {
+          "20": "Drink water with a pinch of cumin powder. Try Ayurvedic herbs like Brahmi and Shankhapushpi.",
+          "30": "Apply a paste of sandalwood and rosewater on your forehead. Practice stress-relieving yoga poses.",
+          "40": "Use Ayurvedic essential oils for massaging your temples. Practice calming yoga and breathing exercises."
+        },
+        "female": {
+          "20": "Drink water with a pinch of cumin powder. Try Ayurvedic herbs like Brahmi and Shankhapushpi.",
+          "30": "Apply a paste of sandalwood and rosewater on your forehead. Practice stress-relieving yoga poses.",
+          "40": "Use Ayurvedic essential oils for massaging your temples. Practice calming yoga and breathing exercises."
+        }
+      }
+    }
+  }
