@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Personal Exercise Trainer</title>
+    <link rel="stylesheet" href="exercise.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs" defer></script>
+</head>
+<body>
+    <header>
+        <h1>AI Personal Exercise Trainer</h1>
+    </header>
+    <main>
+        <div class="exercise-container">
+            <video id="webcam" autoplay playsinline></video>
+            <div id="exercise-info">
+                <h2 id="exercise-name"></h2>
+                <p id="exercise-description"></p>
+                <div id="exercise-duration">
+                    <label for="duration">Duration:</label>
+                    <input type="number" id="duration" name="duration" min="1" value="1">
+                </div>
+                <button id="start-exercise" onclick="startExercise()">Start Exercise</button>
+                <button id="stop-exercise" onclick="stopExercise()" style="display:none;">Stop Exercise</button>
+                <div id="timer">0:00</div>
+                <div id="progress-bar"></div>
+            </div>
+        </div>
+        <div id="chatbot">
+            <img id="chatbot-avatar" src="chatbot-avatar.png" alt="Chatbot Avatar">
+            <p id="chatbot-message"></p>
+            <input id="chatbot-input" type="text" onkeydown="handleChatbotInput(event)">
+        </div>
+        <div id="exercise-list">
+            <h3>Exercise List</h3>
+            <select id="exercise-select" onchange="selectExercise(event)">
+                <option value="">Select an exercise</option>
+                <option value="jumping-jacks">Jumping Jacks</option>
+                <option value="squats">Squats</option>
+                <option value="push-ups">Push-ups</option>
+                <option value="lunges">Lunges</option>
+                <option value="plank">Plank</option>
+                <option value="mountain-climbers">Mountain Climbers</option>
+                <option value="bicep-curls">Bicep Curls</option>
+                <option value="tricep-dips">Tricep Dips</option>
+                <option value="russian-twists">Russian Twists</option>
+                <option value="calf-raises">Calf Raises</option>
+                <option value="glute-bridges">Glute Bridges</option>
+                <option value="arm-circles">Arm Circles</option>
+            </select>
+            <ul id="exercise-list-items">
+                <!-- Exercise items will be dynamically added here -->
+            </ul>
+        </div>
+    </main>
+    <script src="exercise.js" defer></script>
+</body>
+</html>

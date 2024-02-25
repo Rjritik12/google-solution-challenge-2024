@@ -1,0 +1,284 @@
+/* Style the chatbot input button with a background color and centered alignment*/
+.chatbot-input-button {
+  background-color: var(--brand-color);
+  color: white;
+  padding: 8px;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Style the footer with a background color and padding*/
+footer {
+  background-color: var(--brand-color);
+  padding: 16px;
+  text-align: center;
+  color: white;
+}
+
+/* Style the footer text with a smaller font size*/
+footer p {
+  font-size: 0.9rem;
+}
+
+/* Style the webcam container with a width and height*/
+#webcam {
+  width: 100%;
+  height: auto;
+  max-width: 640px;
+  margin-bottom: 16px;
+}
+
+/* Style the start exercise button with a background color and padding*/
+#start-exercise {
+  background-color: var(--brand-color);
+  color: white;
+  padding: 8px;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-right: 16px;
+}
+
+/* Style the stop exercise button with a background color and padding*/
+#stop-exercise {
+  background-color: #ccc;
+  color: white;
+  padding: 8px;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  display: none;
+}
+
+/* Style the up next exercise container with a border and padding*/
+#up-next-exercise {
+  border: 1px solid #ddd;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+/* Style the up next exercise name with a bold font weight and left margin*/
+#exercise-name {
+  font-weight: bold;
+  margin-right: 16px;
+  color: var(--brand-color);
+}
+
+/* Style the up next exercise description with a smaller font size and right margin*/
+#exercise-description {
+  font-size: 0.9rem;
+  margin-right: auto;
+  color: #333;
+}
+
+/* Style the chatbot message container with a border and padding*/
+#chatbot-message {
+  border: 1px solid #ddd;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+/* Style the chatbot input container with a border and padding*/
+#chatbot-input-container {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ddd;
+  padding: 8px;
+  margin-bottom: 16px;
+}
+
+/* Style the chatbot input button with a background color and padding*/
+#chatbot-input-button {
+  background-color: var(--brand-color);
+  color: white;
+  padding: 8px;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-left: 8px;
+}
+
+/* Style the exercise list header with a background color and padding*/
+.exercise-list-header {
+  background-color: var(--brand-color);
+  color: white;
+  padding: 8px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+/* Style the exercise list items with a border and padding*/
+.exercise-list-item {
+  border: 1px solid #ddd;
+  padding: 16px;
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+}
+
+/* Style the exercise list item name with a bold font weight and left margin*/
+.exercise-list-item-name {
+  font-weight: bold;
+  margin-right: 16px;
+  color: var(--brand-color);
+}
+
+/* Style the exercise list item description with a smaller font size and right margin*/
+.exercise-list-item-description {
+  font-size: 0.9rem;
+  margin-right: auto;
+  color: #333;
+}
+
+/* Style the exercise list item type with a background color and padding*/
+.exercise-list-item-type {
+  background-color: var(--brand-color);
+  color: white;
+  padding: 4px 8px;
+  font-size: 0.7rem;
+  margin-top: 8px;
+}
+
+/* Style the exercise list item duration with a smaller font size and right margin*/
+.exercise-list-item-duration {
+  font-size: 0.9rem;
+  margin-left: auto;
+  color: #333;
+}
+
+/* Style the exercise list item target with a smaller font size and right margin*/
+.exercise-list-item-target {
+  font-size: 0.9rem;
+  margin-left: auto;
+  color: #333;
+}
+
+/* Style the exercise list item delete button with a background color and padding*/
+.exercise-list-item-delete-button {
+  background-color: #ccc;
+  color: white;
+  padding: 8px;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-left: 8px;
+}
+
+/* Style the exercise list item delete button hover effect*/
+.exercise-list-item-delete-button:hover {
+  background-color: #999;
+}
+
+/* Style the exercise list item edit button with a background color and padding*/
+.exercise-list-item-edit-button {
+  background-color: #ccc;
+  color: white;
+  padding: 8px;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-left: 8px;
+}
+
+/* Style the exercise list item edit button hover effect*/
+.exercise-list-item-edit-button:hover {
+  background-color: #999;
+}
+
+/* Style the exercise list item add button with a background color and padding*/
+.exercise-list-item-add-button {
+  background-color: var(--brand-color);
+  color: white;
+  padding: 8px;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-left: 8px;
+}
+
+/* Style the exercise list item add button hover effect*/
+.exercise-list-item-add-button:hover {
+  background-color: #999;
+}
+
+/* Style the exercise list item add form with a border and padding*/
+.exercise-list-item-add-form {
+  border: 1px solid #ddd;
+  padding: 16px;
+  margin-bottom: 16px;
+  display: none;
+}
+
+/* Style the exercise list item add form label with a smaller font size*/
+.exercise-list-item-add-form-label {
+  font-size: 0.9rem;
+  display: block;
+  margin-bottom: 8px;
+}
+
+/* Style the exercise list item add form input with a border and padding*/
+.exercise-list-item-add-form-input {
+  border: 1px solid #ddd;
+  padding: 8px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 16px;
+}
+
+/* Style the exercise list item add form submit button with a background color and padding*/
+.exercise-list-item-add-form-submit-button {
+  background-color: var(--brand-color);
+  color: white;
+  padding: 8px;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-bottom: 16px;
+}
+
+/* Style the exercise list item add form submit button hover effect*/
+.exercise-list-item-add-form-submit-button:hover {
+  background-color: #999;
+}
+
+/* Style the exercise list item add form cancel button with a background color and padding*/
+.exercise-list-item-add-form-cancel-button {
+  background-color: #ccc;
+  color: white;
+  padding: 8px;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-bottom: 16px;
+}
+
+/* Style the exercise list item add form cancel button hover effect*/
+.exercise-list-item-add-form-cancel-button:hover {
+  background-color: #999;
+}
+
+/* Style the exercise list item edit form with a border and padding*/
+.exercise-list-item-edit-form {
+  border: 1px solid #ddd;
+  padding: 16px;
+  margin-bottom: 16px;
+  display: none;
+}
+
+/* Style the exercise list item edit form label with a smaller font size*/
+.exercise-list-item-edit-form-label {
+  font-size: 0.9rem;
+  display: block;
+  margin-bottom: 8px;
+}
+
+/* Style the exercise list item edit form input with a border and padding*/
+.exercise-list-item-edit-form-input {
+  border: 1px solid #ddd;
+  padding: 8px;
+}

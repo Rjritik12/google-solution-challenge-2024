@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="doctor.css">
+    <script src="doctor.js" defer></script>
+    <title>Doctor Appointment</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Book an Appointment</h1>
+        <form id="appointment-form">
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender" required>
+                <option value="">Select</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+            <br>
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" min="1" required>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <label for="doctor">Doctor:</label>
+            <select id="doctor" name="doctor" required>
+                <option value="">Select</option>
+                <option value="ENT">ENT Doctor</option>
+                <option value="GYNO">GYNO Doctor</option>
+                <option value="PHYSICIAN">Physician</option>
+                <option value="NEUROLOGIST">Neurologist</option>
+            </select>
+            <br>
+            <label for="fees">Fees:</label>
+            <input type="number" id="fees" name="fees" min="0" step="0.01" required>
+            <br>
+            <button type="submit">Book Appointment</button>
+        </form>
+        <div id="rating-container" hidden>
+            <h2>Rate your Doctor</h2>
+            <div id="rating">
+                <button class="rate-btn" onclick="rateDoctor(1)">1</button>
+                <button class="rate-btn" onclick="rateDoctor(2)">2</button>
+                <button class="rate-btn" onclick="rateDoctor(3)">3</button>
+                <button class="rate-btn" onclick="rateDoctor(4)">4</button>
+                <button class="rate-btn" onclick="rateDoctor(5)">5</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

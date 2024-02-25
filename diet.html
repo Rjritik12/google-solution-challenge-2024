@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Diet Planner</title>
+    <link rel="stylesheet" href="diet.css">
+    <script src="diet.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Diet Planner</h1>
+    </header>
+    <main>
+        <form id="diet-form">
+            <label for="body-type">Body Type:</label>
+            <select id="body-type" name="body-type">
+                <option value="fatty">Fatty</option>
+                <option value="slim">Slim</option>
+                <option value="gym">Gym Goer</option>
+            </select>
+            <br>
+            <label for="dietary-preference">Dietary Preference:</label>
+            <select id="dietary-preference" name="dietary-preference">
+                <option value="veg">Vegetarian</option>
+                <option value="non-veg">Non-Vegetarian</option>
+            </select>
+            <br>
+            <button type="submit">Get Diet Plan</button>
+        </form>
+        <div id="diet-info" style="display:none;">
+            <h2 id="diet-name"></h2>
+<p id="diet-description"></p>
+            <button id="start-diet" onclick="startDiet()">Start Diet</button>
+            <button id="stop-diet" onclick="stopDiet()" style="display:none;">Stop Diet</button>
+            <div id="diet-timer">0:00</div>
+        </div>
+    </main>
+</body>
+</html>
